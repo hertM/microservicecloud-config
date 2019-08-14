@@ -1,0 +1,21 @@
+spring:
+    profiles:
+        active:
+        - dev
+      
+      
+---
+spring:
+    profiles: dev
+        application: 
+            name: microservicecloud-config-tl-dev
+      
+
+
+---
+spring:
+    profiles: dev
+        application: 
+            name: microservicecloud-config-tl-test
+            
+#保存格式为UTF-8
